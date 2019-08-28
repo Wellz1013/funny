@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(226, 11, 154);
+}
+
+#App{
+    header{
+        text-align: center;
+        background-color: black;
+        color: rgb(226, 11, 154);
+        border-top-left-radius: 5% 40%;
+        border-top-right-radius: 5% 40%;
+        border-bottom-left-radius: 5% 40%;
+        border-bottom-right-radius: 5% 40%;
+        
+    }
+    #ask{
+        text-align: center;
+        p{
+            margin-bottom: 0;
+            font-weight: bold;
+        }
+        .buttons{
+            display: flex;
+            justify-content: space-around;
+            .button{
+                background-color: black;
+                color: red;
+                font-size: 40px;
+                width: 100%;
+            }
+            .button:hover{
+                background-color: #fff;
+            }
+        }
+    }
+}
